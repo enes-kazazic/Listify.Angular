@@ -1,0 +1,20 @@
+.mat-expanded {
+  border-bottom: 2px solid #00000024;
+}
+
+.btn-wrapper {
+  padding-block: 20px;
+}
+
+.list-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.card {
+  width: 20%;
+  height: 50px;
+  border-bottom: 2px solid #00000024;
+}

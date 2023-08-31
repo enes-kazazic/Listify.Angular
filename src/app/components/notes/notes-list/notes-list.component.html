@@ -1,13 +1,14 @@
-<div class="example-button-container">
-  <button mat-fab color="primary">
+<div class="btn-wrapper">
+  <button mat-fab color="primary" (click)="addnews()">
     <mat-icon>add</mat-icon>
   </button>
+  Add note
 </div>
 
+<!-- move notescard to noteslist -->
+<!-- move to notes-card -->
 <div class="list-wrapper">
   <div class="card">
-    <!-- move notescard to noteslist -->
-    <!-- move to notes-card -->
     <mat-expansion-panel hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title> This is the expansion title </mat-panel-title>
